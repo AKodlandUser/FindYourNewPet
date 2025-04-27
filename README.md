@@ -1,4 +1,4 @@
-# FindYourNewPet-bot
+# FindYourNewPet
 This bot will help you find your new pet. It will also give you basic information about some pets.
 
 ## How to be recommended a pet
