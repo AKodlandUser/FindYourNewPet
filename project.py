@@ -44,8 +44,25 @@ async def recommend(ctx):
         await ctx.send("You took too long to respond! Please try again.")
 
 @bot.command()
-async def info(ctx):
-    await ctx.send("")
+async def info(ctx, pet):
+    if pet == "dog":
+        await ctx.send("Dogs are loyal and friendly companions. They require regular exercise and grooming.")
+    elif pet == "cat":
+        await ctx.send("Cats are independent and low-maintenance pets. They enjoy playtime and cuddles.")
+    elif pet == "rabbit":
+        await ctx.send("Rabbits are social and playful pets. They need a safe space to hop around and play.")
+    elif pet == "fish":
+        await ctx.send("Fish are low-maintenance pets that require a clean tank and proper food.")
+    elif pet == "snake":   
+        await ctx.send("Snakes are low-maintenance pets. They require a secure enclosure and proper heating, along with adequate food.")
+    elif pet == "spider":
+        await ctx.send("Spiders are low-maintenance pets. They require a secure enclosure and proper humidity, with a diet of insects.")
+    elif pet == "lizard":
+        await ctx.send("Lizards are low-maintenance pets. They require a secure enclosure and proper heating, along with a diet of insects or vegetables.")
+    elif pet == "hamster":
+        await ctx.send("Hamsters are small, low-maintenance pets. They require a secure cage and a diet of pellets and fresh vegetables.")
+    else:
+        await ctx.send("I don't have information about that pet. Please choose from *dog*, *cat*, *rabbit*, *hamster*, *fish*, *snake*, *spider*, or *lizard*.")
 
 # Run the bot
 bot.run("secrettoken")
