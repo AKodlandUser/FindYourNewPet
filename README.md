@@ -8,3 +8,5 @@ Use the command `!recommend` to be recommended a pet. The bot will ask you the s
 
 ## How to ask information on pets
 Use the command `!info [pet]` to ask information about a pet, the current pets are *dog*, *cat*, *rabbit*, *hamster*, *fish*, *snake*, *spider*, and *lizard*. More pets may be added in the future.
+
+![](https://raw.githubusercontent.com/AKodlandUser/FindYourNewPet/refs/heads/main/info.png)
