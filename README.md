@@ -13,4 +13,11 @@ Use the command `!info [pet]` to ask information about a pet, the current pets a
 
 ### `playsound` module
 
-This bot supports the `playsound` module. When you use the `!info` command, a sound will play depending on the animal you chose (All the sounds can be found [here]()).
+This bot supports the `playsound` module. When you use the `!info` command, a sound will play depending on the animal you chose (All the sounds can be found [here](https://github.com/AKodlandUser/FindYourNewPet/tree/f8429f3f86c16e202a53ddafddc663d15122cd30/sounds), in the Github repository).
+
+> [!TIP]
+> Placing the sounds in not so many directories may help with the `playsound` module rendering the sounds correctly. I'd advise to at least put the sounds in
+> ```
+> C:\sounds
+> ```
+> to make sure that the sounds are played correctly.
