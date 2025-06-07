@@ -2,7 +2,7 @@
 This bot will help you find your new pet. It will also give you basic information about some pets.
 
 ## How to be recommended a pet
-Use the command `!recommend` to be recommended a pet. The bot will ask you the size of your house. Depending on the size, it will recommend you different pets.
+Use the command `!recommend` to be recommended a pet. The bot will ask you the size of your house. Depending on the size, it will recommend you different pets. There are 3 possible house sizes, *small*, *medium* and *large*.
 
 ![!recommend](https://raw.githubusercontent.com/AKodlandUser/FindYourNewPet/refs/heads/main/recommend.png)
 
@@ -13,7 +13,7 @@ Use the command `!info [pet]` to ask information about a pet, the current pets a
 
 ### `playsound` module
 
-This bot supports the `playsound` module. When you use the `!info` command, a sound will play depending on the animal you chose (All the sounds can be found [here](https://github.com/AKodlandUser/FindYourNewPet/tree/f8429f3f86c16e202a53ddafddc663d15122cd30/sounds), in the Github repository).
+This bot supports the `playsound` module. When you use the `!info` command, a sound will play depending on the animal you chose (All the sounds can be found [here](https://github.com/AKodlandUser/FindYourNewPet/tree/main/sounds), in the Github repository).
 
 > [!TIP]
 > Placing the sounds in not so many directories may help with the `playsound` module rendering the sounds correctly. I'd advise to at least put the sounds in
