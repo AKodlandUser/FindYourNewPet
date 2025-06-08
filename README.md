@@ -18,6 +18,6 @@ This bot supports the `playsound` module. When you use the `!info` command, a so
 > [!TIP]
 > Placing the sounds in not so many directories may help with the `playsound` module rendering the sounds correctly. I'd advise to at least put the sounds in
 > ```
-> C:\sounds
+> <root>/sounds
 > ```
 > to make sure that the sounds are played correctly.
