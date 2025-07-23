@@ -2,6 +2,7 @@
 import asyncio
 import discord
 from discord.ext import commands
+from playsound3 import playsound
 
 description = '''A bot that can help you which pet is better depending on the size of your house.
 Depending on the size of your house, the bot will recommend a pet that is suitable for you.
@@ -47,28 +48,31 @@ async def recommend(ctx):
 async def info(ctx, pet):
     if pet == "dog":
         await ctx.send("Dogs are loyal and friendly companions. They require regular exercise and grooming. Depending on the breed, they can be **medium-maintenance** to **high-maintenance**.")
-        await play_sound(r"<root>/path/to/dog.mp3")
+        await playsound(r"<root>/path/to/dog.mp3")
     elif pet == "cat":
         await ctx.send("Cats are independent and **low-maintenance** pets. They enjoy playtime and cuddles.")
-        await play_sound(r"<root>/path/to/cat.mp3")
+        await playsound(r"<root>/path/to/cat.mp3")
     elif pet == "rabbit":
         await ctx.send("Rabbits are social and playful pets. They need a safe space to hop around and play.")
-        await play_sound(r"<root>/path/to/rabbit.mp3")
+        await playsound(r"<root>/path/to/rabbit.mp3")
     elif pet == "fish":
         await ctx.send("Fish are **low-maintenance** pets that require a clean tank and proper food.")
-        await play_sound(r"<root>/path/to/fish.mp3")
+        await playsound(r"<root>/path/to/fish.mp3")
     elif pet == "snake":
         await ctx.send("Snakes are **low-maintenance** pets. They require a secure enclosure and proper heating, along with adequate food.")
-        await play_sound(r"<root>/path/to/snake.mp3")
+        await playsound(r"<root>/path/to/snake.mp3")
     elif pet == "spider":
         await ctx.send("Spiders are **low-maintenance** pets. They require a secure enclosure and proper humidity, with a diet of insects.")
-        await play_sound(r"<root>/path/to/spider.mp3")
+        await playsound(r"<root>/path/to/spider.mp3")
     elif pet == "lizard":
         await ctx.send("Lizards are **low-maintenance** pets. They require a secure enclosure and proper heating, along with a diet of insects or vegetables.")
-        await play_sound(r"<root>/path/to/lizard.mp3")
+        await playsound(r"<root>/path/to/lizard.mp3")
     elif pet == "hamster":
         await ctx.send("Hamsters are small, **low-maintenance** pets. They require a secure cage and a diet of pellets and fresh vegetables.")
-        await play_sound(r"<root>/path/to/hamster.mp3")
+        await playsound(r"<root>/path/to/hamster.mp3")
+    elif pet == "parrot":
+        await ctx.send("Parrots are intelligent and social pets. They require a lot of interaction and mental stimulation. They can be **low-maintenance** to **high-maintenance** depending on the species.")
+        await playsound(r"<root>/path/to/parrot.mp3")
     else:
         await ctx.send("I don't have information about that pet. Please choose from *dog*, *cat*, *rabbit*, *hamster*, *fish*, *snake*, *spider*, or *lizard*.")
 
