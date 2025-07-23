@@ -15,8 +15,14 @@ Use the command `!info [pet]` to ask information about a pet, the current pets a
 
 This bot supports the `playsound` module. When you use the `!info` command, a sound will play depending on the animal you chose (All the sounds can be found [here](https://github.com/AKodlandUser/FindYourNewPet/tree/main/sounds), in the Github repository).
 
+> [!NOTE]
+> The `playsound` module isn’t supported anymore. It is recommended to install the `playsound3` module instead.  
+> Here are some links for installing `playsound3`
+> * [Its PyPi page](https://pypi.org/project/playsound3/)
+> * [Its Gihub repository](https://github.com/sjmikler/playsound3)
+
 > [!TIP]
-> Placing the sounds in not so many directories may help with the `playsound` module rendering the sounds correctly. I'd advise to at least put the sounds in
+> Placing the sounds in not so many directories may help with the `playsound` module rendering the sounds correctly. I’d advise to at least put the sounds in
 > ```shell
 > <root>/sounds
 > ```
