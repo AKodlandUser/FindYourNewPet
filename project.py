@@ -53,7 +53,7 @@ async def info(ctx, pet):
         await ctx.send("Cats are independent and **low-maintenance** pets. They enjoy playtime and cuddles.")
         await playsound(r"<root>/path/to/cat.mp3")
     elif pet == "rabbit":
-        await ctx.send("Rabbits are social and playful pets. They need a safe space to hop around and play.")
+        await ctx.send("Rabbits are social and playful pets. They need a safe space to hop around and play. They can be **low-maintenance** to **medium-maintenance** depending on the breed and care requirements.")
         await playsound(r"<root>/path/to/rabbit.mp3")
     elif pet == "fish":
         await ctx.send("Fish are **low-maintenance** pets that require a clean tank and proper food.")
