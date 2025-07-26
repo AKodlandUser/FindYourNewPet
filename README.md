@@ -7,13 +7,13 @@ Use the command `!recommend` to be recommended a pet. The bot will ask you the s
 ![!recommend](https://raw.githubusercontent.com/AKodlandUser/FindYourNewPet/refs/heads/main/recommend.png)
 
 ## How to ask information on pets
-Use the command `!info [pet]` to ask information about a pet, the current pets are *dog*, *cat*, *rabbit*, *hamster*, *fish*, *snake*, *spider*, and *lizard*. More pets may be added in the future.
+Use the command `!info [pet]` to ask information about a pet, the current pets are *dog*, *cat*, *rabbit*, *hamster*, *fish*, *snake*, *spider*, *lizard* and *parrot*. More pets may be added in the future.
 
 ![!info](https://raw.githubusercontent.com/AKodlandUser/FindYourNewPet/refs/heads/main/info.png)
 
 ### `playsound` module
 > [!NOTE]
-> The `playsound` module isn’t supported anymore. It is recommended to install the `playsound3` module instead.
+> The `playsound` module isn’t maintained anymore and it has some difficulties when trying to install via `pip install playsound`. It is recommended to install the `playsound3` module instead.
 > 
 > Here are some links for installing `playsound3`.
 > * [Its PyPi page](https://pypi.org/project/playsound3/)
